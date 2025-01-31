@@ -1,0 +1,17 @@
+# Default ignored files
+Our_Dataset
+vds
+kaggle.json
+# Ignore large files
+
+*.dylib
+*.so
+*.pack
+
+# Ignore virtual environment (vds)
+vds/
+
+# Ignore large model files
+models/
+Features/
+.git/objects/pack/*
