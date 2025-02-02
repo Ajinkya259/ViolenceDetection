@@ -137,7 +137,7 @@ def send_email(subject, body, attachment=None):
 
 
 def generate_frames(video_path):
-    model = load_model('/Users/ajinkya/Downloads/Violence-Detection-master/models/violence_detection_model.h5', compile=False)
+    model = load_model('D:\\ZIP\\models\\violence_detection_model.h5', compile=False)
 
     image_height, image_width = 96, 96  # Correct size to match the model input
     sequence_length = 16
